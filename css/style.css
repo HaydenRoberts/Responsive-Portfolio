@@ -1,0 +1,234 @@
+body {
+    background-color: rgb(141, 141, 141);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-btn:hover {
+    border-bottom: 3px solid white;
+}
+
+.sizing {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.row {
+    position: relative;
+    background-color: rgb(104, 104, 104);
+}
+
+.nav-list {
+   display: inline-block;
+   position: absolute;
+   right: 0px;
+   font-family: 'Dosis', sans-serif;
+
+}
+
+.navigation li {
+    float: left;
+    display: inline;
+    border-right: 1.5px solid rgb(180, 180, 180);
+    padding: 5px 20px;
+    margin: 30px 0px;
+}
+
+.navigation a:hover {
+    color: rgb(85, 85, 85);
+    
+}
+
+.navigation a:active {
+    color: rgb(184, 8, 8);
+    
+}
+
+.name {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+#contact {
+    border-right: none;
+    padding-right: 0px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    transition: .5s;
+}
+
+.main-section {
+    width: 590px;
+    display: inline-block;
+    margin-right: 40px;
+    background-color: white;
+    padding: 30px;
+    border: 1.5pt solid rgb(85, 85, 85);
+}
+
+p {
+    line-height: 25px;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.connect {
+    display: inline-block;
+    position: absolute;
+    width: 202px;
+    padding: 30px;
+    background-color: white;
+    border: 1.5pt solid rgb(85, 85, 85);
+    top: 0px;
+}
+
+.content {
+    position: relative;
+    margin-top: 40px;
+}
+
+.instagram {
+    height: 50px;
+    margin-right: 11px;
+    opacity: .8;
+    transition: .5s;
+    padding-top: 10px;
+}
+
+.instagram:hover {
+    opacity: 1;
+}
+
+.github {
+    height: 50px;
+    margin-right: 11px;
+    opacity: .8;
+    transition: .5s;
+    padding-top: 10px;
+}
+
+.github:hover {
+    opacity: 1;
+}
+
+.linkedin {
+    height: 50px;
+    margin-right: 11px;
+    opacity: .8;
+    transition: .5s;
+    padding-top: 10px;
+}
+
+.linkedin:hover {
+    opacity: 1;
+}
+
+.headshot {
+    width: 100px;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+footer {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.portfolio-images {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.chops {
+    position: relative;
+    width: 150px;
+    top: -25px;
+}
+
+.hightide {
+    position: relative;
+    width: 150px;
+    top: -70px;
+}
+
+.smartstrike {
+    position: relative;
+    width: 150px;
+    top: -70px;
+}
+
+.swisk {
+    position: relative;
+    width: 150px;
+    top: -40px;
+    width: 120px;
+}
+
+.portfolio-tags {
+    z-index: 1;
+    font-family: 'Dosis', sans-serif;
+    background-color: gray;
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+    color: white;
+    padding: 5px 10px;
+}
+
+.form-header {
+    font-family: 'Dosis', sans-serif;
+}
+
+.input-box {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+}
+
+input, select, textarea{
+    color: #cacaca;
+    font-size: 12px;
+}
+
+textarea:focus, input:focus {
+    color: black;
+}
+
+#text-area {
+    width: 100%;
+}
+
+input[type=submit] {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
