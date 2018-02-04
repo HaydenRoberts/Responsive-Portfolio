@@ -232,3 +232,59 @@ input[type=submit] {
     padding: 5px 10px;
     font-size: 16px;
 }
+
+/* Mobile Responsive CSS */
+
+@media screen and (max-width: 980px) {
+
+    /* Index Page */
+
+    .main-section {
+        width: 330px;
+    }
+
+    .sizing {
+        width: 700px;
+        
+    }
+
+    .headshot {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* Portfolio Page */
+
+    .portfolio-images {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 40px;
+        height: 200px;
+        width: 250px;
+    }
+
+    .chops {
+        position: relative;
+        width: 250px;
+        top: -90px;
+    }
+    
+    .hightide {
+        position: relative;
+        width: 250px;
+        top: -110px;
+    }
+    
+    .smartstrike {
+        position: relative;
+        width: 250px;
+        top: -120px;
+    }
+    
+    .swisk {
+        position: relative;
+        width: 250px;
+        top: -100px;
+    }
+}
