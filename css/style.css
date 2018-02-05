@@ -288,3 +288,28 @@ input[type=submit] {
         top: -100px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    /* Index Page */
+
+    .main-section {
+        display: block;
+        width: 636px;
+        clear: both;
+    }
+
+    .headshot {
+        float: left;
+    }
+
+    .connect {
+        display: block;
+        position: relative;
+        margin-top: 40px;
+        width: 636px;
+    }
+
+    .portfolio-images {
+        display: inline-block;
+    }
+}
