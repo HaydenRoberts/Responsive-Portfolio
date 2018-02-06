@@ -349,6 +349,7 @@ input[type=submit] {
     .nav-list {
         display: block;
         position: relative;
+        width: 640px;
     }
 
     .navigation li {
@@ -410,5 +411,9 @@ input[type=submit] {
 
     h3 {
         font-size: 25px;
+    }
+
+    body {
+        width: 640px;
     }
 }
